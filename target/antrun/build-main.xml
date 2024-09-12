@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="target/Operator_Muelsyse.jar" tofile="D:/steam1/steamapps/common/SlayTheSpire/mods/Operator_Muelsyse.jar"/>
+</target>
+</project>

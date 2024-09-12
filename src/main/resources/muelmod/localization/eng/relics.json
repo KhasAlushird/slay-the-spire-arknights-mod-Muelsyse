@@ -1,0 +1,44 @@
+{
+  "MuelSyseKhas:EcoSpecimen": {
+    "NAME": "Ecological Specimen", 
+    "FLAVOR": "It seems to be a sample of some rare plant", 
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain 1 #yFlowingShape and [E] ." 
+    ]
+  },
+  "MuelSyseKhas:ExuberantPlant": {
+    "NAME": "Exuberant Plant", 
+    "FLAVOR": "Every inch of growth is filled with unpredictable wild beauty", 
+    "DESCRIPTIONS": [
+      "At the start of each combat, gain 1 #yFlowingShape, 2 #yEcology and [E] , draw 1 card." 
+    ]
+  },
+  "MuelSyseKhas:EmergencyEcoDevice": {
+    "NAME": "Emergency Ecological Device", 
+    "FLAVOR": "Every activation brings a glimmer of hope.", 
+    "DESCRIPTIONS": [
+      "At the start of each combat, add 1 #yPottedPlant to your hand" 
+    ]
+  },
+  "MuelSyseKhas:CoconutShell": {
+    "NAME": "Half Coconut Shell", 
+    "FLAVOR": "Very hard", 
+    "DESCRIPTIONS": [
+      "At the end of your turn, for each point of #yEcology, gain 4 Block" 
+    ]
+  },
+  "MuelSyseKhas:FluidGetter": {
+    "NAME": "FlowingShape Printer", 
+    "FLAVOR": "Can provide unexpected help to the user at critical moments", 
+    "DESCRIPTIONS": [
+      "At the start of the 2nd turn, gain 3 #yFlowingShape" 
+    ]
+  },
+  "MuelSyseKhas:OceanVoice": {
+    "NAME": "Voice of the Ocean", 
+    "FLAVOR": "This power is like the tides of the deep sea, sometimes calm, sometimes turbulent", 
+    "DESCRIPTIONS": [
+      "At the start of the 4th turn, double your #yStrength and #yDexterity" 
+    ]
+  }
+}

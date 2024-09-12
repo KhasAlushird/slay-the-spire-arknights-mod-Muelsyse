@@ -1,0 +1,58 @@
+{
+    "MuelSyseKhas:Fluid": {
+      "NAME": "流形",
+      "DESCRIPTIONS": [ 
+        "可以触发某些卡牌的特殊效果,可以进化成其他流形" 
+      ]
+    },
+    "MuelSyseKhas:Bio": {
+      "NAME": "生态",
+      "DESCRIPTIONS": [ 
+        "可以触发某些卡牌的特殊效果,不会被卡牌消耗,每回合减少一点" 
+      ]
+    },
+    "MuelSyseKhas:FluidAdd": {
+      "NAME": "流形增生",
+      "DESCRIPTIONS": [ 
+       "回合结束时,获得 #b%d 点 #y流形 。"
+      ]
+    },
+    "MuelSyseKhas:BlockFluid": {
+      "NAME": "流形:重装",
+      "DESCRIPTIONS": [ 
+       "可以触发某些卡牌的特殊效果。回合开始时,获得 #b%d 点格挡 。"
+      ]
+    },
+    "MuelSyseKhas:AttackFluid": {
+      "NAME": "流形:近卫",
+      "DESCRIPTIONS": [ 
+       "可以触发某些卡牌的特殊效果。回合开始时,对所有敌人造成 #b%d 点伤害 。"
+      ]
+    },
+    "MuelSyseKhas:RandomBuff": {
+      "NAME": "不稳定基质",
+      "DESCRIPTIONS": [ 
+       "回合开始时,随机获得 #b%d 点 #y任意形态的流形 , #y生态 或 #y流形增生 。"
+      ]
+    },
+    "MuelSyseKhas:CambrianPower": {
+      "NAME": "物种爆发",
+      "DESCRIPTIONS": [ 
+       " #b%d 回合后,获得 [E] [E] [E] ,3点 #y生态 , #b%d 点 #y流形:近卫 和 #y流形:重装 。"
+      ]
+    },
+    "MuelSyseKhas:SlowAndSteadyPower": {
+      "NAME": "小溪",
+      "DESCRIPTIONS": [ 
+       "回合开始时,将 #b%d 张 #y汩汩 放入你的手牌。"
+      ]
+    },
+
+    "MuelSyseKhas:EnergyFluid": {
+      "NAME": "流形:先锋",
+      "DESCRIPTIONS": [ 
+       "你的下 #b%d 张打出的攻击牌获得 [E] [E] 且抽1张牌"
+      ]
+    }
+  }
+  

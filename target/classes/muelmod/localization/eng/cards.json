@@ -1,0 +1,318 @@
+{
+  "MuelSyseKhas:Strike": { 
+    "NAME": "Strike", 
+    "DESCRIPTION": "Deal !D! Damage.", 
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage." 
+  },
+
+  "MuelSyseKhas:Defend": { 
+    "NAME": "Defend", 
+    "DESCRIPTION": "Gain !B! Block.", 
+    "UPGRADE_DESCRIPTION": "Gain !B! Block." 
+  },
+
+  "MuelSyseKhas:WaterStrike": { 
+    "NAME": "Water Strike", 
+    "DESCRIPTION": "Deal !D! Damage, gain !B! Block, draw 1 card, put a common card into your draw pile.", 
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage, gain !B! Block, draw 1 card, put a common card into your draw pile."
+  },
+
+  "MuelSyseKhas:EcoloBlock": { 
+    "NAME": "Shade", 
+    "DESCRIPTION": "Gain !B! Block. If there are no attack cards in your hand, gain an additional !M! Block.", 
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. If there are no attack cards in your hand, gain an additional !M! Block."
+  },
+
+ "MuelSyseKhas:Turbulence": { 
+    "NAME": "Turbulence", 
+    "DESCRIPTION": "Draw !M! cards. If you draw a power card, draw 2 more cards and gain [E] .", 
+    "UPGRADE_DESCRIPTION": "Draw !M! cards. If you draw a power card, draw 2 more cards and gain [E] ."
+  },
+
+ "MuelSyseKhas:Mould": { 
+  "NAME": "Mould", 
+  "DESCRIPTION": "Gain 1 point of *FlowingShape .", 
+  "UPGRADE_DESCRIPTION": "Gain 2 points of *FlowingShape ."
+},
+
+"MuelSyseKhas:FluidShot": { 
+  "NAME": "Fluid Shot", 
+  "DESCRIPTION": "Deal !D! Damage. muelsysekhas:flowingshape(2): Deal an additional !M! Damage.", 
+  "UPGRADE_DESCRIPTION": "Deal !D! Damage. muelsysekhas:flowingshape(2): Deal an additional !M! Damage."
+},
+"MuelSyseKhas:Transparent": { 
+  "NAME": "Transparent", 
+  "DESCRIPTION": " *Ethereal NL Apply 3 Weak to all enemies. muelsysekhas:flowingshape(4): Gain 2 *Intangible. NL *Exhaust", 
+  "UPGRADE_DESCRIPTION": " *Ethereal NL Apply 3 Weak to all enemies. muelsysekhas:flowingshape(3): Gain 2 *Intangible. NL *Exhaust"
+},
+"MuelSyseKhas:HiPreWaterCannon": { 
+  "NAME": "High-Pressure Water Cannon", 
+  "DESCRIPTION": "Deal !D! Damage. Draw 1 more card next turn. Gain 1 point of *FlowingShape .", 
+  "UPGRADE_DESCRIPTION": "Deal !D! Damage. Draw 1 more card next turn. Gain 2 points of FlowingShape ."
+},
+
+"MuelSyseKhas:Bubble": { 
+    "NAME": "Bubble", 
+    "DESCRIPTION": "Apply 1 Weak. Gain !B! Block. Gain 1 point of muelsysekhas:flowingshape. Each time you take damage, this card's energy cost increases by 3.", 
+    "UPGRADE_DESCRIPTION": "Apply 1 Weak. Gain !B! Block. Gain 1 point of muelsysekhas:flowingshape. Each time you take damage, this card's energy cost increases by 3." 
+  },
+  "MuelSyseKhas:Hydroponics": { 
+    "NAME": "Hydroponics", 
+    "DESCRIPTION": "Draw !M! cards. muelsysekhas:flowingshape(2): Gain 2 points of *ecology .", 
+    "UPGRADE_DESCRIPTION": "Draw !M! cards. muelsysekhas:flowingshape(2): Gain 2 points of *ecology ."
+  },
+  "MuelSyseKhas:BotanicGarden": { 
+    "NAME": "Botanic Garden", 
+    "DESCRIPTION": "muelsysekhas:ecology(3): Add 3 random rare cards to your hand. They cost 0 this turn. NL *Exhaust", 
+    "UPGRADE_DESCRIPTION": "muelsysekhas:ecology(3): Add 3 random rare cards to your hand. They cost 0 this turn. NL *Exhaust"
+  },
+  "MuelSyseKhas:WildGrow": { 
+    "NAME": "Wild Growth", 
+    "DESCRIPTION": "muelsysekhas:ecology(2): Gain [E] [E] [E] [E] , draw 1 card. NL *Exhaust", 
+    "UPGRADE_DESCRIPTION": "muelsysekhas:ecology(2): Gain [E] [E] [E] [E] , draw 1 card. NL *Exhaust"
+  },
+  "MuelSyseKhas:SeedMine": { 
+    "NAME": "Seed Mine", 
+    "DESCRIPTION": "Deal !D! Damage. Gain 3 points of *ecology .", 
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. Gain 3 points of *ecology ."
+  },
+  "MuelSyseKhas:AcidRain": { 
+    "NAME": "Acid Rain", 
+    "DESCRIPTION": "Apply 2 Vulnerable to all enemies. muelsysekhas:flowingshape(1): Deal !D! Damage to all enemies. NL Cannot be used if you have *ecology .", 
+    "UPGRADE_DESCRIPTION": "Apply 4 Vulnerable to all enemies. muelsysekhas:flowingshape(1): Deal !D! Damage to all enemies. NL Cannot be used if you have *ecology ."
+  },
+  "MuelSyseKhas:Spring": { 
+    "NAME": "Spring", 
+    "DESCRIPTION": "muelsysekhas:ecology(2): Gain 1 point of muelsysekhas:FlowingShapeGrowth.", 
+    "UPGRADE_DESCRIPTION": "*Retain NL muelsysekhas:ecology(2): Gain 1 point of muelsysekhas:FlowingShapeGrowth."
+  },
+  "MuelSyseKhas:Liquify": { 
+    "NAME": "Liquify", 
+    "DESCRIPTION": "Gain !B! Block and 1 point of *FlowingShape X times.", 
+    "UPGRADE_DESCRIPTION": "Gain !B! Block and 1 point of *FlowingShape X times."
+  },
+  "MuelSyseKhas:Sow": { 
+    "NAME": "Sow", 
+    "DESCRIPTION": "Gain 1 point of *FlowingShape. If you have *ecology , gain an additional 2 points of *ecology .", 
+    "UPGRADE_DESCRIPTION": "Gain 2 points of *FlowingShape. If you have *ecology , gain an additional 2 points of *ecology ."
+  },
+  "MuelSyseKhas:ThornArmor": { 
+    "NAME": "Thorn Armor", 
+    "DESCRIPTION": " muelsysekhas:ecology(1): Whenever you are attacked, deal !M! Damage to the attacker.", 
+    "UPGRADE_DESCRIPTION": " muelsysekhas:ecology(1): Whenever you are attacked, deal !M! Damage to the attacker."
+  },
+  "MuelSyseKhas:PlantSmash": { 
+    "NAME": "Plant Smash", 
+    "DESCRIPTION": "Can be used without *ecology . Deal !D! Damage. muelsysekhas:ecology(3): Gain [E] [E] [E] , draw 1 card.", 
+    "UPGRADE_DESCRIPTION": "Can be used without *ecology . Deal !D! Damage. muelsysekhas:ecology(3): Gain [E] [E] [E] , draw 1 card."
+  },
+  "MuelSyseKhas:EcoDominance": { 
+    "NAME": "Ecological Interaction", 
+    "DESCRIPTION": " *Ethereal NL Gain 5 points of *ecology . Gain 1 less [E] at the start of each turn.", 
+    "UPGRADE_DESCRIPTION": " *Ethereal NL Gain 6 points of *ecology . Gain 1 less [E] at the start of each turn."
+  },
+  "MuelSyseKhas:AcuteLubrication": { 
+    "NAME": "Acute Moisturization", 
+    "DESCRIPTION": "Gain 1 point of muelsysekhas:flowingshape:Defender and muelsysekhas:flowingshape:Guard. NL *Exhaust", 
+    "UPGRADE_DESCRIPTION": "Gain 1 point of muelsysekhas:flowingshape:Defender and muelsysekhas:flowingshape:Guard. NL *Exhaust"
+  },
+  "MuelSyseKhas:CoordinatedAttack": { 
+    "NAME": "Coordinated Attack", 
+    "DESCRIPTION": "Deal !D! Damage. Convert 2 points of *FlowingShape into 1 point of muelsysekhas:flowingshape:Guard.", 
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. Convert 2 points of *FlowingShape into 1 point of muelsysekhas:flowingshape:Guard."
+  },
+  "MuelSyseKhas:RippleVibration": { 
+    "NAME": "Ripple Vibration", 
+    "DESCRIPTION": "Gain !B! Block. Apply 1 Weak to all enemies. Convert 1 point of *FlowingShape into 1 point of muelsysekhas:flowingshape:Defender. NL *Exhaust", 
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. Apply 1 Weak to all enemies. Convert 1 point of *FlowingShape into 1 point of muelsysekhas:flowingshape:Defender."
+  },
+  "MuelSyseKhas:NonEntropyAdaptation": { 
+    "NAME": "Superficial Regulation", 
+    "DESCRIPTION": "Draw !M! cards. Swap the amounts of muelsysekhas:flowingshape:Defender and muelsysekhas:flowingshape:Guard. NL *Exhaust", 
+    "UPGRADE_DESCRIPTION": "Draw !M! cards. Swap the amounts of muelsysekhas:flowingshape:Defender and muelsysekhas:flowingshape:Guard. NL *Exhaust"
+  },
+  "MuelSyseKhas:WaterBlade": { 
+    "NAME": "Water Blade", 
+    "DESCRIPTION": "Deal !D! Damage. muelsysekhas:flowingshape:Defender(1): Deal 2 additional hits.", 
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. muelsysekhas:flowingshape:Defender(1): Deal 2 additional hits."
+  },
+  "MuelSyseKhas:HoldLine": { 
+    "NAME": "Hold Line", 
+    "DESCRIPTION": "Draw 1 less card for the next 3 turns. Gain !B! Block. Convert up to !M! points of *FlowingShape into muelsysekhas:flowingshape:Defender. NL *Exhaust", 
+    "UPGRADE_DESCRIPTION": "Draw 1 less card for the next 3 turns. Gain !B! Block. Convert up to !M! points of *FlowingShape into muelsysekhas:flowingshape:Defender. NL *Exhaust"
+  },
+  "MuelSyseKhas:StrenAndDex": { 
+    "NAME": "Strength and Dexterity", 
+    "DESCRIPTION": "Gain !M! Strength and !M! Dexterity. Remove all your *FlowingShape. Draw 1 less card next turn.", 
+    "UPGRADE_DESCRIPTION": "Gain !M! Strength and !M! Dexterity. Remove all your *FlowingShape. Draw 1 less card next turn."
+  },
+  "MuelSyseKhas:SandStabilization": { 
+    "NAME": "Sand Stabilization", 
+    "DESCRIPTION": " muelsysekhas:ecology(1): Gain !M! points of *FlowingShape.", 
+    "UPGRADE_DESCRIPTION": " muelsysekhas:ecology(1): Gain !M! points of *FlowingShape."
+  },
+  "MuelSyseKhas:Afforestation": { 
+    "NAME": "Afforestation", 
+    "DESCRIPTION": "Draw 2 cards. Gain !M! points of *ecology . Draw 1 less card for the next 3 turns.", 
+    "UPGRADE_DESCRIPTION": "Draw 2 cards. Gain !M! points of *ecology . Draw 1 less card for the next 3 turns."
+  },
+  "MuelSyseKhas:RidingWind": { 
+    "NAME": "Riding Wind", 
+    "DESCRIPTION": "Can be used without *ecology . Gain !B! Block. muelsysekhas:ecology(1): Draw 3 cards.", 
+    "UPGRADE_DESCRIPTION": "Can be used without *ecology . Gain !B! Block. muelsysekhas:ecology(1): Draw 3 cards."
+  },
+  "MuelSyseKhas:Assembly": { 
+    "NAME": "Assembly", 
+    "DESCRIPTION": "Deal !D! Damage to all enemies. Convert 4 points of *FlowingShape into !M! points of muelsysekhas:flowingshape:Guard. NL *Exhaust", 
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage to all enemies. Convert 4 points of *FlowingShape into !M! points of muelsysekhas:flowingshape:Guard. NL *Exhaust"
+  },
+  "MuelSyseKhas:WoodlandStream": { 
+    "NAME": "Woodland Stream", 
+    "DESCRIPTION": " muelsysekhas:ecology(1): Draw !M! cards. For each point of any form of *FlowingShape you have, draw 1 additional card.", 
+    "UPGRADE_DESCRIPTION": " muelsysekhas:ecology(1): Draw !M! cards. For each point of any form of *FlowingShape you have, draw 1 additional card."
+  },
+  "MuelSyseKhas:ForestGuard": { 
+    "NAME": "Forest Guard", 
+    "DESCRIPTION": "Can be used without *ecology . Gain !B! Block. muelsysekhas:ecology(1): Convert 2 points of muelsysekhas:flowingshape into 2 points of muelsysekhas:flowingshape:Guard.", 
+    "UPGRADE_DESCRIPTION": "Can be used without *ecology . Gain !B! Block. muelsysekhas:ecology(1): Convert up to 2 points of muelsysekhas:flowingshape into muelsysekhas:flowingshape:Guard."
+  },
+
+  "MuelSyseKhas:Regenerate": { 
+    "NAME": "Regenerate", 
+    "DESCRIPTION": "Gain !M! points of *ecology . End your turn.", 
+    "UPGRADE_DESCRIPTION": "Gain !M! points of *ecology . End your turn."
+  },
+  "MuelSyseKhas:CutExpenditure": { 
+    "NAME": "Resource Economization", 
+    "DESCRIPTION": "Gain [E] next turn and draw 2 more cards.", 
+    "UPGRADE_DESCRIPTION": "Gain [E] next turn and draw 3 more cards."
+  },
+  "MuelSyseKhas:VineAmbush": { 
+    "NAME": "Vine Ambush", 
+    "DESCRIPTION": "Can be used without *ecology . Deal !D! Damage.  muelsysekhas:ecology(1): Apply 99 Vulnerable. NL *Exhaust", 
+    "UPGRADE_DESCRIPTION": " *Innate , *Retain NL Can be used without *ecology . Deal !D! Damage.  muelsysekhas:ecology(1): Apply 99 Vulnerable. NL *Exhaust"
+  },
+
+  "MuelSyseKhas:GiantWave": { 
+    "NAME": "Giant Wave", 
+    "DESCRIPTION": "Deal !D! Damage twice. Discard !M! cards.", 
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage twice. Discard !M! cards."
+  },
+  "MuelSyseKhas:CreativeExperiment": { 
+    "NAME": "Creative Experiment", 
+    "DESCRIPTION": " *Ethereal NL Gain 1 point of muelsysekhas:UnstableMatrix .", 
+    "UPGRADE_DESCRIPTION": "Gain 1 point of muelsysekhas:UnstableMatrix ."
+  },
+  "MuelSyseKhas:SunBeam": { 
+    "NAME": "Sun Beam", 
+    "DESCRIPTION": " muelsysekhas:ecology(1): Deal !D! Damage. Convert 1 point of *FlowingShape into 2 muelsysekhas:flowingshape:Guard.", 
+    "UPGRADE_DESCRIPTION": " muelsysekhas:ecology(1): Deal !D! Damage. Convert 1 point of *FlowingShape into 2 muelsysekhas:flowingshape:Guard."
+  },
+  "MuelSyseKhas:Tide": { 
+    "NAME": "Tide", 
+    "DESCRIPTION": "*Retain NL Draw !M! cards. Each time this card is retained, its energy cost increases by 1 for this combat.", 
+    "UPGRADE_DESCRIPTION": "*Retain NL Draw !M! cards. Each time this card is retained, its energy cost increases by 1 for this combat."
+  },
+  "MuelSyseKhas:LeafShield": { 
+    "NAME": "Leaf Shield", 
+    "DESCRIPTION": " muelsysekhas:ecology(1): Gain !B! Block. NL *Exhaust", 
+    "UPGRADE_DESCRIPTION": " muelsysekhas:ecology(1): Gain !B! Block. NL *Exhaust"
+  },
+
+  "MuelSyseKhas:Gardening": { 
+    "NAME": "Gardening", 
+    "DESCRIPTION": "Gain !M! points of *ecology and 2 points of Artifact. NL *Exhaust", 
+    "UPGRADE_DESCRIPTION": "Gain !M! points of *ecology and 2 points of Artifact. NL *Exhaust"
+  },
+"MuelSyseKhas:Cambrian": {
+  "NAME": "Cambrian Explosion",
+  "DESCRIPTION": "After 3 turns,gain [E] [E] [E] ,3 points of *ecology,and convert up to !M! points of *FlowingShape into muelsysekhas:flowingshape:GuardAndDefender . NL *Exhaust ",
+  "UPGRADE_DESCRIPTION": "After 3 turns,gain [E] [E] [E] ,3 points of *ecology,and convert up to !M! points of *FlowingShape into muelsysekhas:flowingshape:GuardAndDefender . NL *Exhaust "
+},
+  "MuelSyseKhas:Lubricant": { 
+    "NAME": "Lubricant", 
+    "DESCRIPTION": "Deal !D! Damage. Put a 0-cost card from your discard pile into your hand.", 
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. Put a 0-cost card from your discard pile into your hand."
+  },
+
+  "MuelSyseKhas:Gurgling": { 
+    "NAME": "Gurgling", 
+    "DESCRIPTION": "*Retain NL Draw !M! cards next turn. NL *Exhaust.", 
+    "UPGRADE_DESCRIPTION": "*Retain NL Draw !M! cards next turn. NL *Exhaust."
+  },
+  "MuelSyseKhas:SlowAndSteady": { 
+    "NAME": "Slow and Steady", 
+    "DESCRIPTION": "At the start of each turn, add a *Gurgling to your hand.", 
+    "UPGRADE_DESCRIPTION": " *Innate NL At the start of each turn, add a *Gurgling to your hand."
+  },
+  "MuelSyseKhas:Solidify": { 
+    "NAME": "Solidify", 
+    "DESCRIPTION": "Deal !D! Damage. muelsysekhas:flowingshape:Guard(1): Gain !M! *Strength .", 
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. muelsysekhas:flowingshape:Guard(1): Gain !M! *Strength ."
+  },
+  "MuelSyseKhas:WaterIsLife": { 
+    "NAME": "Pure Water is Life", 
+    "DESCRIPTION": "Deal !D! Damage. muelsysekhas:flowingshape(1): Heal HP equal to unblocked damage dealt. NL *Exhaust.", 
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. muelsysekhas:flowingshape(1): Heal HP equal to unblocked damage dealt. NL *Exhaust."
+  },
+  "MuelSyseKhas:LeafHurricane": { 
+    "NAME": "Leaf Hurricane", 
+    "DESCRIPTION": " muelsysekhas:ecology(1): Deal !D! Damage to all enemies 11 times. Discard all your cards. NL *Exhaust.", 
+    "UPGRADE_DESCRIPTION": "Can be used without muelsysekhas:ecology NL Deal !D! Damage to all enemies 5 times. Discard all your cards.  muelsysekhas:ecology(1): Deal 6 additional hits. NL *Exhaust."
+  },
+  "MuelSyseKhas:PottedPlant": { 
+    "NAME": "Potted Plant", 
+    "DESCRIPTION": "*Retain NL Gain !M! *ecology . NL *Exhaust.", 
+    "UPGRADE_DESCRIPTION": "*Retain NL Gain !M! *ecology . NL *Exhaust."
+  },
+
+  "MuelSyseKhas:Reproduction": { 
+    "NAME": "Reproduction", 
+    "DESCRIPTION": "Gain !B! Block. If you have no *ecology , gain 1 *ecology .", 
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. If you have no *ecology , gain 1 *ecology ."
+  },
+  
+  "MuelSyseKhas:RapidEjection": { 
+    "NAME": "Rapid Ejection", 
+    "DESCRIPTION": "Deal !D! Damage. muelsysekhas:flowingshape:Defender(1): Your next attack deals !M! additional damage.", 
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. muelsysekhas:flowingshape:Defender(1): Your next attack deals !M! additional damage."
+  },
+
+  "MuelSyseKhas:Nurture": { 
+    "NAME": "Nurture", 
+    "DESCRIPTION": "Can be used without *ecology NL Deal !D! Damage. Lose 2 *Strength. muelsysekhas:ecology(2): Gain !M! *Strength instead.", 
+    "UPGRADE_DESCRIPTION": "Can be used without *ecology NL Deal !D! Damage. Lose 2 *Strength. muelsysekhas:ecology(2): Gain !M! *Strength instead."
+  },
+
+  "MuelSyseKhas:Clear": { 
+    "NAME": "Clear", 
+    "DESCRIPTION": "Discard all skill cards. Gain !B! Block for each card discarded.", 
+    "UPGRADE_DESCRIPTION": "Discard all skill cards. Gain !B! Block for each card discarded."
+  },
+  "MuelSyseKhas:StillWater": { 
+    "NAME": "Still Water", 
+    "DESCRIPTION": "Can be used without *ecology NL Gain !B! Block. muelsysekhas:ecology(1): Gain !M! *Dexterity .", 
+    "UPGRADE_DESCRIPTION": "Can be used without *ecology NL Gain !B! Block. muelsysekhas:ecology(1): Gain !M! *Dexterity ."
+  },
+
+  "MuelSyseKhas:StandingWater": { 
+    "NAME": "Standing Water", 
+    "DESCRIPTION": "Deal !D! Damage. muelsysekhas:flowingshape(1): Gain 1 *Strength.", 
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. muelsysekhas:flowingshape(1): Gain 1 *Strength."
+  }, 
+  "MuelSyseKhas:Charge": { 
+    "NAME": "Charge", 
+    "DESCRIPTION": "For every 2 points of muelsysekhas:flowingshape, convert them into 1 point of muelsysekhas:flowingshape:Vanguard. NL *Exhaust.", 
+    "UPGRADE_DESCRIPTION": "Gain 1 point of muelsysekhas:flowingshape:Vanguard. For every 2 points of muelsysekhas:flowingshape, convert them into 1 point of muelsysekhas:flowingshape:Vanguard. NL *Exhaust."
+  },
+  "MuelSyseKhas:Exhaustion": { 
+    "NAME": "Exhaustion", 
+    "DESCRIPTION": "Deal !D! Damage. Draw 1 card. Convert 1 point of *FlowingShape into 1 point of muelsysekhas:flowingshape:Vanguard. NL Remove all your muelsysekhas:flowingshape and *ecology .", 
+    "UPGRADE_DESCRIPTION": "Deal !D! Damage. Draw 1 card. Convert 1 point of *FlowingShape into 1 point of muelsysekhas:flowingshape:Vanguard. NL Remove all your muelsysekhas:flowingshape and *ecology ."
+  },
+  "MuelSyseKhas:WildFire": { 
+    "NAME": "Wild Fire", 
+    "DESCRIPTION": "Cannot be used with *ecology NL Deal !D! Damage. Convert all your muelsysekhas:flowingshape:Guard and muelsysekhas:flowingshape:Defender into muelsysekhas:flowingshape:Vanguard.", 
+    "UPGRADE_DESCRIPTION": "Cannot be used with *ecology NL Deal !D! Damage. Convert all your muelsysekhas:flowingshape:Guard and muelsysekhas:flowingshape:Defender into muelsysekhas:flowingshape:Vanguard."
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "MuelSyseKhas:CushionPotion": {
+      "NAME": "Cushion Potion",
+      "DESCRIPTIONS": [
+        "Gain ",
+        " buffer power."
+      ]
+    },
+    "MuelSyseKhas:BottledBioPotion": {
+      "NAME": "Bottled Ecology",
+      "DESCRIPTIONS": [
+        "Gain ",
+        " Ecology,draw 2 cards"
+      ]
+    },
+    "MuelSyseKhas:EssenceOfEnergyFluidPotion": {
+      "NAME": "Essence of Flowing Shape:Vanguard",
+      "DESCRIPTIONS": [
+        "Gain ",
+        " Flowing Shape:Vanguard"
+      ]
+    }
+  }

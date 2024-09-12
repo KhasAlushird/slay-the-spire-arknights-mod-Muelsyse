@@ -1,0 +1,46 @@
+{
+    "MuelSyseKhas:EcoSpecimen": {
+      "NAME": "生态标本", 
+      "FLAVOR": "似乎是什么稀有植物的样本", 
+      "DESCRIPTIONS": [
+        "每场战斗开始时,获得1点 #y流形 和 [E] 。" 
+      ]
+    },
+    "MuelSyseKhas:ExuberantPlant": {
+      "NAME": "疯长的植物", 
+      "FLAVOR": "每一寸生长都充满了不可预测的野性美", 
+      "DESCRIPTIONS": [
+        "每场战斗开始时,获得1点 #y流形 ,2点 #y生态 和 [E] ,抽1张牌。" 
+      ]
+    },
+    "MuelSyseKhas:EmergencyEcoDevice": {
+      "NAME": "应急生态生成装置", 
+      "FLAVOR": "每一次启动都带来一线生机。", 
+      "DESCRIPTIONS": [
+        "每场战斗开始时,将1张 #y盆栽 置入你的手牌" 
+      ]
+    },
+    "MuelSyseKhas:CoconutShell": {
+      "NAME": "半边椰子壳", 
+      "FLAVOR": "十分地坚硬", 
+      "DESCRIPTIONS": [
+        "回合结束后,每有1点 #y生态 ,获得4点格挡" 
+      ]
+    },
+    "MuelSyseKhas:FluidGetter": {
+      "NAME": "流形打印机", 
+      "FLAVOR": "能够在关键时刻为使用者带来意想不到的帮助", 
+      "DESCRIPTIONS": [
+        "第2回合开始时,获得3点 #y流形 " 
+      ]
+    },
+
+    "MuelSyseKhas:OceanVoice": {
+      "NAME": "海洋之声", 
+      "FLAVOR": "这股力量如同深海的潮汐，时而平静，时而汹涌", 
+      "DESCRIPTIONS": [
+        "第4回合开始时,使你的 #y力量 和 #y敏捷 增加翻倍" 
+      ]
+    }
+  }
+  

@@ -1,0 +1,23 @@
+{
+    "MuelSyseKhas:CushionPotion": {
+      "NAME": "缓冲药水",
+      "DESCRIPTIONS": [
+        "获得 ",
+        " 点缓冲。"
+      ]
+    },
+    "MuelSyseKhas:BottledBioPotion": {
+      "NAME": "瓶装生态",
+      "DESCRIPTIONS": [
+        "获得 ",
+        " 点生态,抽2张牌。"
+      ]
+    },
+    "MuelSyseKhas:EssenceOfEnergyFluidPotion": {
+      "NAME": "先锋精华",
+      "DESCRIPTIONS": [
+        "获得 ",
+        " 点流形:先锋"
+      ]
+    }
+  }

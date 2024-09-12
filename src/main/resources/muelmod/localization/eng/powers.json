@@ -1,0 +1,56 @@
+{
+  "MuelSyseKhas:Fluid": {
+    "NAME": "FlowingShape",
+    "DESCRIPTIONS": [ 
+      "Can trigger special effects of certain cards, can evolve into other FlowingShapes" 
+    ]
+  },
+  "MuelSyseKhas:Bio": {
+    "NAME": "Ecology",
+    "DESCRIPTIONS": [ 
+      "Can trigger special effects of certain cards, will not be consumed by cards, decreases by one each turn" 
+    ]
+  },
+  "MuelSyseKhas:FluidAdd": {
+    "NAME": "FlowingShapeGrowth",
+    "DESCRIPTIONS": [ 
+     "At the end of the turn, gain #b%d points of #yFlowingShape."
+    ]
+  },
+  "MuelSyseKhas:BlockFluid": {
+    "NAME": "FlowingShape:Defender",
+    "DESCRIPTIONS": [ 
+     "Can trigger special effects of certain cards. At the start of the turn, gain #b%d points of Block."
+    ]
+  },
+  "MuelSyseKhas:AttackFluid": {
+    "NAME": "FlowingShape:Guard",
+    "DESCRIPTIONS": [ 
+     "Can trigger special effects of certain cards. At the start of the turn, deal #b%d points of Damage to all enemies."
+    ]
+  },
+  "MuelSyseKhas:RandomBuff": {
+    "NAME": "UnstableMatrix",
+    "DESCRIPTIONS": [ 
+     "At the start of the turn, randomly gain #b%d points of any form of FlowingShape, Ecology, or FlowingShapeGrowth."
+    ]
+  },
+  "MuelSyseKhas:CambrianPower": {
+    "NAME": "Cambrian Explosion",
+    "DESCRIPTIONS": [ 
+     "After #b%d turns, gain [E] [E] [E], 3 points of Ecology, #b%d points of FlowingShape:Guard and FlowingShape:Defender."
+    ]
+  },
+  "MuelSyseKhas:SlowAndSteadyPower": {
+    "NAME": "Stream",
+    "DESCRIPTIONS": [ 
+     "At the start of the turn, add #b%d Gurgle cards to your hand."
+    ]
+  },
+  "MuelSyseKhas:EnergyFluid": {
+    "NAME": "FlowingShape:Vanguard",
+    "DESCRIPTIONS": [ 
+     "Your next #b%d attack cards gain [E] [E] and draw 1 card."
+    ]
+  }
+}

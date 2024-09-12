@@ -1,0 +1,91 @@
+[
+  {
+    "NAMES": [
+      "flowingshape(x)",
+      "flowingshape",
+      "flowingshape(2)",
+      "flowingshape(3)",
+      "flowingshape(4)",
+      "flowingshape(5)",
+      "flowingshape(6)",
+      "flowingshape(7)",
+      "flowingshape(8)",
+      "flowingshape(1)"
+    ],
+    "DESCRIPTION": "Consume X points of #yFlowingShape to trigger the card's additional effect"
+  },
+
+  {
+      "NAMES": [
+       "flowingshapegrowth"
+      ],
+      "DESCRIPTION": "For each layer, gain 1 point of #yFlowingShape at the end of each turn."
+    },
+
+    
+  {
+      "NAMES": [
+       "unstablematrix"
+      ],
+      "DESCRIPTION": "For each layer, randomly gain 1 point of #yAny_Form_of_FlowingShape, #yEcology, or #yFlowingShapeGrowth at the end of each turn."
+    },
+
+    {
+      "NAMES": [
+        "flowingshape:defender(x)",
+        "flowingshape:defender(1)",
+          "flowingshape:defender(2)",
+          "flowingshape:defender(3)"
+      ],
+      "DESCRIPTION": "Consume X points of #yFlowingShape:Defender to trigger the card's additional effect"
+    },
+    {
+      "NAMES": [
+        "flowingshape:guard(x)",
+        "flowingshape:guard(1)",
+          "flowingshape:guard(2)",
+          "flowingshape:guard(3)"
+      ],
+      "DESCRIPTION": "Consume X points of #yFlowingShape:Guard to trigger the card's additional effect"
+    },
+    {
+      "NAMES": [
+        "flowingshape:guard"
+      ],
+      "DESCRIPTION": "For each layer, deal 6 points of damage to all enemies at the start of each turn."
+    },
+
+    {
+      "NAMES": [
+        "flowingshape:defender"
+      ],
+      "DESCRIPTION": "For each layer, gain 7 points of Block at the start of each turn."
+    },
+
+    {
+      "NAMES": [
+        "ecology(x)",
+        "ecology(1)",
+        "ecology(2)",
+        "ecology(3)",
+        "ecology(4)",
+        "ecology(5)",
+        "ecology(6)"
+      ],
+      "DESCRIPTION": "Generally, you need X points of #yEcology to use it. #yEcology will not be consumed by cards"
+    },
+
+    {
+      "NAMES": [
+        "flowingshape:guardanddefender"
+      ],
+      "DESCRIPTION": "Gain 1 point of #yFlowingShape:Defender and #yFlowingShape:Guard simultaneously."
+    },
+
+    {
+      "NAMES": [
+        "flowingshape:vanguard"
+      ],
+      "DESCRIPTION": "For each layer, your next attack card gains [E] [E] and draws 1 card."
+    }
+]
