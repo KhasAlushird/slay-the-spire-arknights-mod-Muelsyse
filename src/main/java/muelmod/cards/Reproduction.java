@@ -30,7 +30,7 @@ public class Reproduction extends CustomCard {
     public Reproduction() {
         // 为了命名规范修改了变量名。这些参数具体的作用见下方
         super(ID, NAME, IMG_PATH, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
-        this.baseBlock = 5;
+        this.baseBlock = 8;
     }
 
     @Override

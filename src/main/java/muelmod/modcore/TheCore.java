@@ -25,7 +25,7 @@ import basemod.interfaces.EditRelicsSubscriber;
 import basemod.interfaces.EditStringsSubscriber;
 import muelmod.character.MuelSyse;
 import static muelmod.character.MuelSyse.PlayerColorEnum.MUEL_COLOR;
-import static muelmod.character.MuelSyse.PlayerColorEnum.MY_CHARACTER;
+import static muelmod.character.MuelSyse.PlayerColorEnum.MUEL_KHAS_CHARACTER;
 import muelmod.helpers.ImageHelper;
 import muelmod.potions.BottledBioPotion;
 import muelmod.potions.CushionPotion;
@@ -207,7 +207,7 @@ public class TheCore implements EditCardsSubscriber,EditStringsSubscriber,EditCh
     @Override
     public void receiveEditCharacters() {
         // 向basemod注册人物
-        BaseMod.addCharacter(new MuelSyse(CardCrawlGame.playerName), MY_CHARACTER_BUTTON, MY_CHARACTER_PORTRAIT, MY_CHARACTER);
+        BaseMod.addCharacter(new MuelSyse(CardCrawlGame.playerName), MY_CHARACTER_BUTTON, MY_CHARACTER_PORTRAIT, MUEL_KHAS_CHARACTER);
     }
 
    
@@ -225,9 +225,9 @@ public class TheCore implements EditCardsSubscriber,EditStringsSubscriber,EditCh
 
 
         //register potions here
-        BaseMod.addPotion(CushionPotion.class, Color.GREEN, Color.YELLOW, Color.CLEAR, "MuelSyseKhas:CushionPotion", MY_CHARACTER);
-        BaseMod.addPotion(BottledBioPotion.class, Color.GREEN, Color.GREEN, Color.FOREST, "MuelSyseKhas:BottledBioPotion", MY_CHARACTER);
-        BaseMod.addPotion(EssenceOfEnergyFluidPotion.class, Color.PINK, Color.PURPLE, Color.CLEAR, "MuelSyseKhas:EssenceOfEnergyFluidPotion", MY_CHARACTER);
+        BaseMod.addPotion(CushionPotion.class, Color.GREEN, Color.YELLOW, Color.CLEAR, "MuelSyseKhas:CushionPotion", MUEL_KHAS_CHARACTER);
+        BaseMod.addPotion(BottledBioPotion.class, Color.GREEN, Color.GREEN, Color.FOREST, "MuelSyseKhas:BottledBioPotion", MUEL_KHAS_CHARACTER);
+        BaseMod.addPotion(EssenceOfEnergyFluidPotion.class, Color.PINK, Color.PURPLE, Color.CLEAR, "MuelSyseKhas:EssenceOfEnergyFluidPotion", MUEL_KHAS_CHARACTER);
         
 
 

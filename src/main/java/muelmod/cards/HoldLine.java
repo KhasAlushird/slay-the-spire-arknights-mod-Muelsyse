@@ -7,6 +7,7 @@ import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
+import com.megacrit.cardcrawl.powers.DrawCardNextTurnPower;
 import com.megacrit.cardcrawl.powers.DrawReductionPower;
 
 import basemod.abstracts.CustomCard;
@@ -51,6 +52,7 @@ public class HoldLine extends CustomCard {
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
      addToBot(new ApplyPowerAction(p,p, new DrawReductionPower(p, 3), 3));
+     addToBot(new ApplyPowerAction(p, p, new DrawCardNextTurnPower(p, 1), 1));
      this.addToBot(new GainBlockAction(p, this.block));
         if (p.hasPower(Fluid.POWER_ID)){
             int curr_fluid_amount=p.getPower(Fluid.POWER_ID).amount;

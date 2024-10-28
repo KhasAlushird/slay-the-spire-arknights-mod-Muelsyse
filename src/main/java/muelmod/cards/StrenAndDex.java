@@ -7,6 +7,7 @@ import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.powers.DexterityPower;
+import com.megacrit.cardcrawl.powers.DrawCardNextTurnPower;
 import com.megacrit.cardcrawl.powers.DrawReductionPower;
 import com.megacrit.cardcrawl.powers.StrengthPower;
 
@@ -50,6 +51,7 @@ public class StrenAndDex extends CustomCard {
         addToBot(new ApplyPowerAction(p,p, new DexterityPower(p, this.magicNumber), this.magicNumber));
         addToBot(new ApplyPowerAction(p,p, new StrengthPower(p, this.magicNumber), this.magicNumber));
         addToBot(new ApplyPowerAction(p,p, new DrawReductionPower(p,1),1));
+        addToBot(new ApplyPowerAction(p, p, new DrawCardNextTurnPower(p, 1), 1));
         this.addToBot(new com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction(p, p, Fluid.POWER_ID));
     }
 

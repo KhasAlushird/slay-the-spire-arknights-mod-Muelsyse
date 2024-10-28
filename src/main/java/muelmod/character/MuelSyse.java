@@ -25,7 +25,7 @@ import basemod.abstracts.CustomPlayer;
 import muelmod.cards.Defend;
 import muelmod.cards.Strike;
 import static muelmod.character.MuelSyse.PlayerColorEnum.MUEL_COLOR;
-import static muelmod.character.MuelSyse.PlayerColorEnum.MY_CHARACTER;
+import static muelmod.character.MuelSyse.PlayerColorEnum.MUEL_KHAS_CHARACTER;
 import muelmod.helpers.ImageHelper;
 import muelmod.modcore.TheCore;
 
@@ -59,7 +59,7 @@ public class MuelSyse extends CustomPlayer {
     private static final CharacterStrings characterStrings = CardCrawlGame.languagePack.getCharacterString("TheCore:MuelSyse");
 
     public MuelSyse(String name) {
-        super(name,MY_CHARACTER,ORB_TEXTURES,ImageHelper.getImgPathWithSubType("ui","orb","vfx"), LAYER_SPEED, null, null);
+        super(name,MUEL_KHAS_CHARACTER,ORB_TEXTURES,ImageHelper.getImgPathWithSubType("ui","orb","vfx"), LAYER_SPEED, null, null);
 
 
         // 人物对话气泡的大小，如果游戏中尺寸不对在这里修改（libgdx的坐标轴左下为原点）
@@ -231,7 +231,7 @@ public class MuelSyse extends CustomPlayer {
     // 不可将该定义放在外部的 MuelSyse 类中，具体原因见《高级技巧 / 01 - Patch / SpireEnum》
     public static class PlayerColorEnum {
         @SpireEnum
-        public static PlayerClass MY_CHARACTER;
+        public static PlayerClass MUEL_KHAS_CHARACTER;
 
         // ***将CardColor和LibraryType的变量名改为你的角色的颜色名称，确保不会与其他mod冲突***
         // ***并且名称需要一致！***
